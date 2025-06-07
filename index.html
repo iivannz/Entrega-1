@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnico en casa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    
+   <h1>Convertite en el plomero de tu Hogar</h1>
+   
+</header>
+
+<main>
+    <div class="espacio-color"></div>
+    <h2>Cambio de o'ring de una grifería</h2>
+
+    <nav>
+        <ul class="nav-links">
+        <li><a href="#herramientas">Herramientas</a></li>
+        <li><a href="#procedimiento">Procedimiento</a></li>
+        <li><a href="#encuesta">Encuesta</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="herramientas" id="herramientas">
+    <h3>Para comenzar, haremos una lista de herramientas y materiales:</h3>
+    <ul>
+        <li>
+        <div class="boton-contenedor bloque-lista">
+            <button class="boton-hover">Pico de loro o Llave ajustable</button>
+            <div class="imagen-hover">
+            <img src="assets/images/llave.jpg" alt="Llave ajustable">
+            </div>
+        </div>
+        </li>
+        <li>
+        <div class="boton-contenedor">
+            <button class="boton-hover">Pinza de punta</button>
+            <div class="imagen-hover">
+            <img src="assets/images/pinza de punta.jpg" alt="Pinza">
+            </div>
+        </div>
+        </li>
+        <li>
+        <div class="boton-contenedor">
+            <button class="boton-hover">Destornillador</button>
+            <div class="imagen-hover">
+            <img src="assets/images/destornillador.jpg" alt="Destornillador">
+            </div>
+        </div>
+        </li>
+        <li>
+        <div class="boton-contenedor">
+            <button class="boton-hover">Fresa para grifería</button>
+            <div class="imagen-hover">
+            <img src="assets/images/fresa.jpg" alt="Fresa">
+            </div>
+        </div>
+        </li>
+        <li>
+        <div class="boton-contenedor">
+            <button class="boton-hover">Cinta de Teflón</button>
+            <div class="imagen-hover">
+            <img src="assets/images/cinta.jpg" alt="Cinta">
+            </div>
+        </div>
+        </li>
+        <li>
+        <div class="boton-contenedor">
+            <button class="boton-hover">O'ring o Cuerito nuevo</button>
+            <div class="imagen-hover">
+            <img src="assets/images/cueritos.jpg" alt="Cueritos">
+            </div>
+        </div>
+        </li>
+    </ul>
+    </div>
+ 
+    <div class="seccion-ancha">
+        <div class="procedimiento" id="procedimiento">
+            <h3>A continuación, veremos los pasos necesarios para realizar el cambio:</h3>
+            <ol>
+                <li>Lo primero es cortar el paso de agua de la canilla que debemos reparar.</li>
+                <li>Quitar el tornillo que sujeta el volante de la canilla.</li>
+                <li>Luego debemos retirar el volante y la campana, para dejar a la vista el vástago.</li>
+                <li>Con la pinza pico de loro o llave ajustable debemos retirar el vástago tomándolo por su parte hexagonal.</li>
+                <li>Una vez retirado el vástago, en la parte inferior encontraremos el o-ring y su sujetador. Puede que necesitemos la pinza de punta para retirarlo.</li>
+                <li>Buscamos el repuesto equivalente al que estaba colocado y lo ubicamos en el mismo lugar.</li>
+                <li>Con la fresa para grifería, alisamos el asiento del o-ring (opcional).</li>
+                <li>Por último, armamos todo nuevamente, y habilitamos el paso de agua.</li>
+                <li>Puesta en marcha y prueba.</li>
+            </ol>
+    </div>
+        
+    <div class="video-responsive">
+    <iframe src="https://www.youtube.com/embed/SJgOdw2RCxM?si=rEAI4aG0z0w7xQj3" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>    
+        
+    <div class="encuesta" id="encuesta">
+        <h3>¿Pudiste realizar el procedimiento?</h3>
+
+        <form>
+            <label for="nombre">Nombre*</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>¿Pudiste completar el procedimiento?</p>
+            <label>
+            <input type="radio" name="resultado" value="exito" required>
+            Sí, lo pude hacer correctamente
+            </label>
+
+            <label>
+            <input type="radio" name="resultado" value="problemas">
+            Tuve algunos problemas
+            </label>
+
+            <label>
+            <input type="radio" name="resultado" value="no-pude">
+            No lo pude hacer
+            </label>
+
+            <p>¿Qué herramienta te resultó más útil?</p>
+            <input type="text" name="herramienta_util" placeholder="Ej: Pico de loro">
+
+            <label for="comentarios">¿Querés contarnos tu experiencia?</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribí tu experiencia acá..."></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>  
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://instagram.com/iivann_z" target="_blank">Instagram</a>
+    <a href="https://wa.me/5493513900243" target="_blank">WhatsApp</a>
+  </div>
+  <p class="footer-copy">© 2025 Técnico en Casa. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

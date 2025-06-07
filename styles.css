@@ -1,0 +1,260 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/*  Fuente general para todas las paginas */
+body {
+    background-color: #3c3c3c;            /* Fondo gris oscuro */
+    line-height: 1.6;                     /* Espaciado entre lineas */
+    font-family: "Share Tech", sans-serif;
+}
+
+/* ============================== */
+/*              Header            */
+/* ============================== */
+header {
+    background-image: url("https://img.freepik.com/fotos-premium/accesorios-plomeria-piezas-tuberia-conector-laton-valvula-agua-tuberia_263512-1642.jpg");
+    background-position: center;
+    color: #ffa64d;                    
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 3px #000000b3; /* sombra para legibilidad */
+}
+
+/* ============================== */
+/*              Main              */
+/* ============================== */
+
+/* Titulo de seccion*/
+
+.espacio-color {
+    background-color: #444;
+    height: 30px;
+    width: 100%;
+}
+
+h2 {
+    color: #f5f5f5b2;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid #f5f5f5b2;
+    background-color: #2e2e2e;
+}
+
+
+/* Estilo NAV*/
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li a {
+    color: #ffa64d;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #ffffff;
+}
+
+/* Estilos de secciones H3 */
+h3 {
+    color: #ffa64d;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*Estilo para lista de herramientas */
+.herramientas ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.herramientas ul li {
+    margin-bottom: 10px;
+}
+
+
+/*Estilo de botones*/
+button {
+    background-color: #2e2e2e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px; 
+}
+
+button:hover {
+    background-color: #e0a400;
+}
+
+.boton-contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen-hover {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    background: #ffffff40;
+    padding: 10px;
+    border: 4px solid #ccc;
+    z-index: 100;
+}
+
+.boton-contenedor:hover .imagen-hover {
+    display: block;
+}
+
+/* Estilo para el procedimiento*/
+.procedimiento {
+    margin: 40px auto;
+    max-width: 700px;
+    text-align: center;
+  
+}
+
+.seccion-ancha {
+    background-color: #444;
+    padding: 10px;
+}
+
+.procedimiento ol {
+    list-style: decimal;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+.procedimiento ol li {
+    text-align: left;   /* Texto alineado a la izquierda */
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* Estilo de encuesta*/
+.encuesta {
+    background-color: #2e2e2e;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.95rem;
+}
+
+.encuesta h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffa64d;
+}
+
+.encuesta label, 
+.encuesta p {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.encuesta input[type="text"],
+.encuesta input[type="email"],
+.encuesta textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.encuesta input[type="radio"] {
+    margin-right: 8px;
+}
+
+.encuesta textarea {
+    resize: vertical;
+}
+
+.encuesta button {
+    background-color: #e0a400;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.encuesta button:hover {
+    background-color: #f0b700;
+}
+
+/* ============================== */
+/*              Footer            */
+/* ============================== */
+footer {
+    background-color: #2e2e2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ffa64d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.footer-copy {
+    font-size: 0.8rem;
+    color: #bbbbbb;
+}
+
+/* Estilo Video*/
+.video-responsive {
+  aspect-ratio: 16 / 9;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-responsive iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
